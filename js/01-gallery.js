@@ -1,6 +1,5 @@
 import { galleryItems } from './gallery-items.js';
 
-//import basicLightbox from "basiclightbox";
 // Change code below this line
 
 
@@ -34,7 +33,6 @@ gallery.onclick = function (e) {
    .show();
   document.addEventListener("keydown", function (e) {
       if (e.key === "Escape") {
-        alert("key pressed")
       modal.close();
     }
   });
