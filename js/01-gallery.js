@@ -30,7 +30,7 @@ gallery.onclick = function (e) {
     .create(
       `<img src = ${e.target.dataset.source}>`
     )
-   .show();
+   modal.show();
   document.addEventListener("keydown", function (e) {
       if (e.key === "Escape") {
       modal.close();
